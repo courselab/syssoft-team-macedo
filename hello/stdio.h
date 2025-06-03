@@ -8,9 +8,10 @@
  *  ViniMacedo <vii-30@usp.br>
  */
 
-#ifndef E8_H
-#define E8_H
-
-void __attribute__((fastcall, naked)) printf(const char *); 
-
-#endif	
+ #ifndef E8_H
+ #define E8_H
+ 
+ void __attribute__((fastcall, naked)) printf(const char *); 
+ int __attribute__((fastcall, naked)) memsize(void);
+ #endif	
+ 
